@@ -43,7 +43,6 @@ span.categories {
 img:hover {
   opacity: 1 !important;
   transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1) !important;
-<<<<<<< HEAD
 }
 
 .uk-card-default {
@@ -51,6 +50,4 @@ img:hover {
 }
 .uk-label {
   margin-right: 2px;
-=======
->>>>>>> 52b6c79da82169b95464988641991d8d8a8e5b4a
 }
