@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const ProjectCard = ({ article }) => {
   return (
     <Link to={`/projects/${article.node.slug}`} className="uk-link-reset">
-      <div className="uk-card uk-card-muted">
+      <div className="uk-card uk-card-default uk-card-hover">
         <div className="uk-card-media-top">
         <div className="uk-card-media-top">
           <img
