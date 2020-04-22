@@ -8,7 +8,7 @@ const Nav = () => (
         <div className="uk-navbar-left">
           <ul className="uk-navbar-nav">
             <li>
-              <Link to="/">Home</Link>
+              <Link activeStyle={{ color: "red" }} to="/">Home</Link>
             </li>
           </ul>
         </div>
@@ -17,10 +17,11 @@ const Nav = () => (
           <ul className="uk-navbar-nav">
 
             <li>                            
-              <Link to={`/pages/about`}>About</Link>
+              <Link     activeStyle={{ color: "red" }}
+ to={`/pages/about`}>About</Link>
             </li>
             <li>                            
-              <Link to={`/projects`}>Projects</Link>
+              <Link activeStyle={{ color: "red" }} to={`/projects`}>Projects</Link>
             </li>
             <li>
               <a href="#">Categories</a>
