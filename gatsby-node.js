@@ -82,6 +82,7 @@ exports.createPages = async ({ graphql, actions }) => {
   })
 
   pages.forEach((page, index) => {
+    console.log(page.node.slug);
     createPage({
       path: `/pages/${page.node.slug}`,
       component: require.resolve("./src/templates/page.js"),
